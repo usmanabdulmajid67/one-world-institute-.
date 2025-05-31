@@ -343,3 +343,8 @@ Public License instead of this License.
   <a href="blog.html" style="color: white; margin-right: 20px; text-decoration: none;">Blog</a>
   <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
 </nav>
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+<script type='text/javascript'>
+  kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'D1D01FSHOW');
+  kofiwidget2.draw();
+</script>
