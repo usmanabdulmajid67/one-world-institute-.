@@ -301,3 +301,9 @@ res.json({ answer });
 app.listen(port, () => { console.log(Ask Usman server running on http://localhost:${port}); });
 
 const response = await fetch('https://your-backend.com/api/ask', {
+<div id="chatbot" style="position:fixed;bottom:20px;right:20px;max-width:320px;padding:15px;background:#f0f0f0;border-radius:10px;box-shadow:0 0 10px #aaa;z-index:9999;">
+  <h4>Ask OneWorld Institute</h4>
+  <textarea id="question" rows="3" placeholder="Ask a question..." style="width:100%;padding:5px;"></textarea>
+  <button onclick="askAI()" style="margin-top:8px;width:100%;padding:6px 10px;">Send</button>
+  <div id="answer" style="margin-top:10px;color:#333;font-size:14px;"></div>
+</div>
