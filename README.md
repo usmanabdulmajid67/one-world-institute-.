@@ -1,6 +1,6 @@
-# Usman A Majid Academy 🌍
+# oneworld institute 🌍
 
-Welcome to the official repository of **Usman A Majid Academy** – a personal academic website created to share knowledge, educational content, blog posts, and more.
+Welcome to the official repository of **oneworld institute ** – a personal academic website created to share knowledge, educational content, blog posts, and more.
 
 ## 🌟 Website Link
 
@@ -30,7 +30,7 @@ const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY, })
 
 app.post('/api/ask', async (req, res) => { const { question } = req.body;
 
-try { const response = await openai.createChatCompletion({ model: 'gpt-4', messages: [ { role: 'system', content: 'You are Ask Usman, an academic assistant for secondary and junior students. Explain topics clearly, and use examples if needed.' }, { role: 'user', content: question }, ], max_tokens: 300, });
+try { const response = await openai.createChatCompletion({ model: 'gpt-4', messages: [ { role: 'system', content: 'You are Ask Usman, an academic assistant for secondary and junior students. Explain topics clearly, and use examples if needed.' }, { role: 'user', content: question }, ], max_tokens: 300, })
 
 const answer = response.data.choi
 
