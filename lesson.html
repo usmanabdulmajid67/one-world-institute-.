@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lesson Access</title>
+  <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+
+  <div id="lessonContent" style="display:none;">
+    <h2>Lesson Title</h2>
+    <p>Welcome! Here is your paid lesson content.</p>
+  </div>
+
+  <div id="paymentPrompt">
+    <p>Please pay $5 to access this lesson.</p>
+    <button id="payBtn">Pay & Access Lesson</button>
+  </div>
+
+  <script>
+    // Replace 'YOUR_PUBLISHABLE_KEY' below with your actual Stripe publishable key
+    const stripe = Stripe('YOUR_PUBLISHABLE_KEY');
+
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('paid') === 'true') {
+      // Show lesson content and hide payment button
+      document.getElementById('lessonContent').style.display = 'block';
+      document.getElementById('paymentPrompt').style.display = 'none';
+    } else {
+      // Setup payment button event
+      document.getElementById('payBtn').addEventListener('click', () => {
+        fetch('/create-checkout-session', { method: 'POST' })
+          .then(res => res.json())
+          .then(session => stripe.redirectToCheckout({ sessionId: session.id }))
+          .catch(err => alert('Payment error: ' + err.message));
+      });
+    }
+  </script>
+
+</body>
+</html>
