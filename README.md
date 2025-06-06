@@ -1,4 +1,4 @@
-# oneworld institute 🌍
+#  ONEWORLD INSTITUTE 🌎
 
 Welcome to the official repository of **oneworld institute ** – a personal academic website created to share knowledge, educational content, blog posts, and more.
 
@@ -8,7 +8,8 @@ Welcome to the official repository of **oneworld institute ** – a personal aca
 
 ## 📚 About the Academy
 
-The Usman A Majid Academy is built to:
+The ONEWORLD INSTITUTE 🌎
+ is built to:
 - Share tutorials, blogs, and resources
 - Showcase academic and personal achievements
 -
