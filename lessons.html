@@ -247,3 +247,136 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lessons | OneWorld Institute</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      width: 220px;
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      flex-shrink: 0;
+    }
+
+    nav h2 {
+      font-size: 20px;
+      margin-top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 1rem 0;
+    }
+
+    .main {
+      flex-grow: 1;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .search-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .search-filter input, .search-filter select {
+      padding: 10px;
+      font-size: 15px;
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .lessons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .lesson-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .lesson-card h3 {
+      margin-top: 0;
+      color: #003366;
+    }
+
+    .lesson-card p {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .lesson-card a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #0066cc;
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+      }
+
+      .main {
+        padding: 1rem;
+      }
+
+      .search-filter {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>📚 OneWorld Institute</h2>
+    <a href="index.html">🏠 Home</a>
+    <a href="lessons.html">📘 Lessons</a>
+    <a href="courses.html">🎓 Courses</a>
+    <a href="blog.html">📝 Blog</a>
+    <a href="contact.html">📩 Contact</a>
+    <a href="https://ko-fi.com/itzsultan" target="_blank">☕ Support Us</a>
+  </nav>
+
+  <div class="main">
+    <header>
+      <h1>Explore Our Lessons</h1>
+      <p>Learn new things.
