@@ -4,7 +4,7 @@ Welcome to the official repository of **oneworld institute ** – a personal aca
 
 ## 🌟 Website Link
 
-➡️ [Visit the Website](https://usmanabdulmajid67.github.io/Usman-abdulmajid/)
+➡️ [Visit the Website](https://usmanabdulmajid67.github.io/oneworld-institute/)
 
 ## 📚 About the Academy
 
@@ -23,7 +23,7 @@ The ONEWORLD INSTITUTE 🌎
 
 Welcome to the official GitHub repository for **OneWorld Institute**, a free, global learning platform offering academic resources, lesson materials, and AI-powered assistance to learners everywhere.
 
-🚀 **Live Website**: [Visit OneWorld Institute](https://yourusername.github.io/oneworld-institute)
+🚀 **Live Website**: [Visit OneWorld Institute](https://usmanabdulmajid67.github.io/oneworld-institute)
 
 ## 🎓 Features
 
