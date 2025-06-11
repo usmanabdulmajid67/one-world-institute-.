@@ -64,3 +64,144 @@
   </style>
 </head>
 <body
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Tutorials - OneWorld Institute</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+    }
+    header {
+      background-color: #005792;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .profile-banner {
+      text-align: center;
+      padding: 20px;
+    }
+    .profile-banner img {
+      width: 180px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    .tutorial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .tutorial-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .tutorial-card h3 {
+      margin-top: 0;
+    }
+    .label-free { color: green; font-weight: bold; }
+    .label-paid { color: red; font-weight: bold; }
+    .paypal-button {
+      margin-top: 10px;
+    }
+    .login-section {
+      padding: 20px;
+      background-color: #e0e7ff;
+      text-align: center;
+    }
+    .login-section input {
+      padding: 10px;
+      margin: 5px;
+      width: 200px;
+    }
+    .login-section button {
+      padding: 10px 20px;
+      background-color: #005792;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .video-container iframe, .pdf-link {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .pdf-link a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #005792;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OneWorld Institute - Online Tutorials</h1>
+  </header>  <div class="profile-banner">
+    <img src="images/your-photo.jpg" alt="Founder of OneWorld Institute" />
+    <h2>Welcome to Our Online Tutorial Hub</h2>
+    <p>Learn anytime, anywhere with guided lessons across key subjects.</p>
+  </div>  <div class="login-section">
+    <h3>Student Login / Register</h3>
+    <input type="text" placeholder="Your Email" />
+    <input type="password" placeholder="Password" />
+    <br />
+    <button>Login / Register</button>
+  </div>  <div class="tutorial-grid">
+    <div class="tutorial-card">
+      <h3>Mathematics</h3>
+      <p>Learn numbers, shapes, and problem-solving. <span class="label-free">Free</span></p>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/2C7p5K9bAqY" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="pdf-link">
+        <a href="pdfs/mathematics-lesson.pdf" download>Download PDF Notes</a>
+      </div>
+    </div><div class="tutorial-card">
+  <h3>Science</h3>
+  <p>Explore the natural world. <span class="label-paid">Paid</span></p>
+  <form action="https://www.paypal.com/paypalme/YourPayPalLink" method="post" target="_blank">
+    <button class="paypal-button">Unlock for ₦1000</button>
+  </form>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/VQ4x5LlR3t8" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="pdf-link">
+    <a href="pdfs/science-lesson.pdf" download>Download PDF Notes</a>
+  </div>
+</div>
+
+<div class="tutorial-card">
+  <h3>Islamic Studies</h3>
+  <p>Understand Islam and its values. <span class="label-free">Free</span></p>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/9L4oGLGhhVg" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="pdf-link">
+    <a href="pdfs/islamic-studies.pdf" download>Download PDF Notes</a>
+  </div>
+</div>
+
+<div class="tutorial-card">
+  <h3>ICT</h3>
+  <p>Basic computer skills and coding. <span class="label-paid">Paid</span></p>
+  <form action="https://www.paypal.com/paypalme/YourPayPalLink" method="post" target="_blank">
+    <button class="paypal-button">Unlock for ₦1000</button>
+  </form>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/3nNPIX0kP_k" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="pdf-link">
+    <a href="pdfs/ict-lesson.pdf" download>Download PDF Notes</a>
+  </div>
+</div>
+
+  </div>
+</body>
+</html>
